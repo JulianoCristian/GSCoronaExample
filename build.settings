@@ -9,6 +9,7 @@ settings =
 	{
 		-- Supported values for orientation:
 		-- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+
 		default = "portrait",
 		supported = { "portrait", },
 	},
@@ -42,7 +43,18 @@ settings =
 	--
 	plugins =
 	{
-
+		["plugin.bit"] =
+        {
+            publisherId = "com.coronalabs",
+        },
+        ["plugin.openssl"] =
+        {
+            publisherId = "com.coronalabs",
+        },
+        ["plugin.gamesparks"] =
+        {
+            publisherId = "com.gamesparks",
+        }
 	},
 
 	--
