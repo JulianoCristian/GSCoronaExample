@@ -42,7 +42,7 @@ end
 
 -- create()
 function scene:create( event )
-	local sceneGroup = self.view
+    local sceneGroup = self.view
 
     -- Username Txt Setup
     local usernameLbl = display.newText( sceneGroup, "Username: ", 100, 150, native.systemFont, 16 )
